@@ -1,0 +1,9 @@
+{
+  "format": "UNFORGE-PREUVE-v1",
+  "marque": "UNFORGE",
+  "id": "QT-PR-DEMO0001",
+  "card_id": "QT-EM-DEMO0001",
+  "token_id": "QT-JK-DEMO0001",
+  "empreinte": "985d3ff3389f8c64c87eeb829ccebf4ae09b943fd3500e442614b1e1731498e5",
+  "objet": {"nom": "bienvenue.txt", "octets": 92, "sha256": "e8fe730c49dc859358e3b94376fb0a5f0916aca21b18457eb3d8391c4ebc0838"}
+}
