@@ -1,4 +1,4 @@
 Ville preview — trail
+Linked from famille PR #12 merge.
 PREVIEW ≠ quittance UNFORGE.
-Convention: ville/<quartier>-<piece>.
-Historique intact.
+Historique bloc/* intact.
