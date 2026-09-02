@@ -1,0 +1,4 @@
+SDK 3 lignes
+import trail
+trail.verify(path)
+# done
