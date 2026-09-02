@@ -1,0 +1,5 @@
+Ville preview — acorn
+Linked from famille PR #17 merge (BUILD.md verrou acorn).
+PREVIEW ≠ quittance UNFORGE.
+Hôte unique acorn. Historique bloc/* intact.
+0 node. Carl merge.
