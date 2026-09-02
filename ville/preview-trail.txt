@@ -1,0 +1,4 @@
+Ville preview — trail
+PREVIEW ≠ quittance UNFORGE.
+Convention: ville/<quartier>-<piece>.
+Historique intact.
