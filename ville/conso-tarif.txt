@@ -1,0 +1,6 @@
+Tarif rente — org d'abord.
+Linked from famille PR #25 merge (RENTE-TARIF.md).
+Rails : x-money | visa | interac | ach | cash.
+Pas de token. Pas de mint.
+Qualité avant facture.
+0 nœud. Carl merge. NE MERGE PAS auto.
