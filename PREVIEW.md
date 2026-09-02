@@ -1,5 +1,6 @@
-# PREVIEW
+# Ville Preview — trail
 
-Trail itinerary of one-passage stamps.
-PREVIEW ≠ quittance.
-0 node. Carl merge.
+One passage. Stamp burned once.
+PREVIEW leaves the node yours.
+
+Triggered after famille attest merge.
