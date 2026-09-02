@@ -1,0 +1,4 @@
+Ville preview — attest
+Linked from unforge PR #32 merge.
+PREVIEW leaves the node yours.
+Historique bloc/* intact.
