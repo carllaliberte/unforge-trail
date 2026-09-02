@@ -1,3 +1,2 @@
-PREVIEW stamp one-passage.
-PREVIEW ≠ quittance UNFORGE.
-Triggered after famille preview-docs merge.
+preview stamp
+one passage
