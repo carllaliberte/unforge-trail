@@ -1,6 +1,7 @@
-# Preview
+# Ville Preview — trail
 
-UNFORGE Trail — itinerary of stamps.
-0 data/.
-0 slug.
-Carl.
+One passage. Stamp burned once.
+PREVIEW leaves the node yours.
+
+Triggered after famille attest merge.
+Kernel gras.
