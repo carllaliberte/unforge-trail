@@ -1,0 +1,41 @@
+{
+  "$id": "https://github.com/carllaliberte/unforge-trail/schema/trail.v0.json",
+  "title": "unforge.trail.v0",
+  "description": "Record returned by UNFORGE Trail. Local process. No server. ok: true means every stamp names the same SHA-256 and each id burned once. Trail does not sign.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["ok", "geste"],
+  "properties": {
+    "ok": {
+      "type": "boolean",
+      "description": "Itinerary holds: one-passage ids, same file SHA-256, optional file match, optional empreinte flux when fait is present. A retract beside a stamp does not flip this."
+    },
+    "geste": { "const": "trail" },
+    "schema": { "const": "trail.v0" },
+    "etapes": { "type": "integer" },
+    "ids": { "type": "array", "items": { "type": "string" } },
+    "card_ids": { "type": "array", "items": { "type": ["string", "null"] } },
+    "token_ids": { "type": "array", "items": { "type": ["string", "null"] } },
+    "gestes": { "type": "array", "items": { "type": ["string", "null"] } },
+    "sha256": { "type": ["string", "null"] },
+    "sha256_fichier": { "type": ["string", "null"] },
+    "octets": { "type": ["integer", "null"] },
+    "meme_fichier": { "type": "boolean" },
+    "passage_unique": { "type": "boolean" },
+    "fichier_ok": {
+      "type": ["boolean", "null"],
+      "description": "null when no file was presented."
+    },
+    "empreinte_ok": {
+      "type": ["boolean", "null"],
+      "description": "null when no stamp carries fait. Not a seal — SHA-256(fait|prev|token_id) only."
+    },
+    "retraits": { "type": "array", "items": { "type": "object" } },
+    "passages": { "type": "array", "items": { "type": "object" } },
+    "marque": { "const": "UNFORGE" },
+    "noeud": { "const": "non requis" },
+    "phrase": { "type": "string" },
+    "erreur": { "type": "string" },
+    "attendu": { "type": "string" }
+  }
+}
