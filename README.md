@@ -24,3 +24,4 @@ Each proof stays a one-passage card
 [retract](https://github.com/carllaliberte/unforge-retract)).
 No node. No cloud. No coin.
 Brand UNFORGE reserved. Code: Apache-2.0.
+The itinerary is not QUANTUM. QUANTUM is not licensed here. See LICENSE, NOTICE, COPYRIGHT.md.
