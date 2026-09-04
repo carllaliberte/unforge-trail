@@ -426,6 +426,12 @@ class Porte(unittest.TestCase):
         self.assertIn("once on this walk", r.stdout)
         self.assertNotRegex(r.stdout, r"(?i)\bburned\b")
 
+    def test_preview_each_id_once_on_this_walk(self):
+        text = (ROOT / "PREVIEW.md").read_text(encoding="utf-8")
+        self.assertIn("each id once on this walk", text)
+        self.assertIn("once on this walk", text)
+        self.assertNotRegex(text, r"(?i)\bburned\b")
+
 
 if __name__ == "__main__":
     unittest.main()
