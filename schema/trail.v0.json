@@ -1,7 +1,7 @@
 {
   "$id": "https://github.com/carllaliberte/unforge-trail/schema/trail.v0.json",
   "title": "unforge.trail.v0",
-  "description": "Record returned by UNFORGE Trail. Local process. No server. ok: true means every stamp names the same SHA-256 and each id burned once. Trail does not sign.",
+  "description": "Record returned by UNFORGE Trail. Local process. No server. ok: true means every stamp names the same SHA-256 and each id once on this walk. Trail does not sign.",
   "type": "object",
   "additionalProperties": true,
   "required": ["ok", "geste"],

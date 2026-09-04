@@ -1,13 +1,13 @@
 # UNFORGE Trail
 
-One file. Several passages. Each stamp burned once.
+One file. Several passages. Each id once on this walk.
 
 ```bash
 python3 trail.py examples/bienvenue.txt
 python3 trail.py examples/bienvenue.unforge-trail.json examples/bienvenue.txt
 ```
 
-`ok: true` — every stamp names the same SHA-256, and each id burned once.
+`ok: true` — every stamp names the same SHA-256, and each id once on this walk.
 Trail compares the itinerary. It does not sign. It does not open a signature.
 
 Agents and other tools — no server:

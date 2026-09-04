@@ -6,7 +6,7 @@ Trail walks one-passage cards. It does not merge [check](https://github.com/carl
 
 | Rail | What it does with the card |
 |---|---|
-| Trail | itinerary — same SHA-256, each `id` burned once |
+| Trail | itinerary — same SHA-256, each `id` once on this walk |
 | Check | one card — empreinte + signature + file |
 | Press | print ids (`id`, `card_id`, `token_id`, SHA) |
 | Retract | withdrawal sits beside the proof; history stays |
