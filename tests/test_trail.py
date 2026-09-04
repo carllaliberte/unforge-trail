@@ -398,5 +398,34 @@ class CLI(unittest.TestCase):
             self.assertEqual(rec["erreur"], "itinéraire introuvable")
 
 
+class Porte(unittest.TestCase):
+    def test_readme_each_id_once_on_this_walk(self):
+        text = (ROOT / "README.md").read_text(encoding="utf-8")
+        self.assertIn("each id once on this walk", text)
+        self.assertIn("once on this walk", text)
+        self.assertIn("each id once", text)
+        self.assertNotRegex(text, r"(?i)\bburned\b")
+        self.assertIn("itinerary", text)
+
+    def test_cli_help_pas_burned(self):
+        r = _run(["--help"])
+        self.assertEqual(r.returncode, 0, r.stderr)
+        aide = r.stdout + r.stderr
+        self.assertNotRegex(aide, r"(?i)\bburned\b")
+        self.assertIn("itinerary", aide)
+
+    def test_interop_each_id_once_on_this_walk(self):
+        text = (ROOT / "INTEROP.md").read_text(encoding="utf-8")
+        self.assertIn("once on this walk", text)
+        self.assertIn("each `id` once", text)
+        self.assertNotRegex(text, r"(?i)\bburned\b")
+
+    def test_schema_pas_burned(self):
+        r = _run(["--schema"])
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn("once on this walk", r.stdout)
+        self.assertNotRegex(r.stdout, r"(?i)\bburned\b")
+
+
 if __name__ == "__main__":
     unittest.main()
