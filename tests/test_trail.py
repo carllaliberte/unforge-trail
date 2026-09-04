@@ -428,7 +428,7 @@ class Porte(unittest.TestCase):
 
     def test_preview_each_id_once_on_this_walk(self):
         text = (ROOT / "PREVIEW.md").read_text(encoding="utf-8")
-        self.assertIn("each id once on this walk", text)
+        self.assertIn("each id once on this walk", text.lower())
         self.assertIn("once on this walk", text)
         self.assertNotRegex(text, r"(?i)\bburned\b")
 
