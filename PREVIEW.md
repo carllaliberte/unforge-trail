@@ -1,6 +1,6 @@
 # Ville Preview — trail
 
-One passage. Stamp burned once.
+One passage. Each id once on this walk.
 PREVIEW leaves the node yours.
 
 Triggered after famille attest merge.
